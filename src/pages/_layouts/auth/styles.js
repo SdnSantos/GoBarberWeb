@@ -33,6 +33,15 @@ export const Content = styled.div`
       }
     }
 
+    /* validação do Yup fica em um span */
+    span {
+      color: #fb6f91;
+      align-self: flex-end;
+      margin: 0 0 10px;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
     button {
       margin: 5px 0 0;
       height: 44px;
